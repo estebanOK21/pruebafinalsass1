@@ -1,0 +1,26 @@
+header{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1{
+      color: $colorTitulo;  
+    }
+
+    nav{
+        background-color: rgba(91, 248, 235, 0.253);
+
+        li{
+            display: inline-block;
+
+
+            a{
+                text-decoration: none;
+                color:blue;
+                text-transform: uppercase;
+                font-size: $tamañoFuente;
+            }
+        }
+    }
+}
